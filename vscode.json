@@ -1,0 +1,89 @@
+{
+  // This is for layout container
+  "workbench.sideBar.location": "right",
+  // This is for the F* ugly title bar on linux
+  "window.titleBarStyle": "custom",
+  "workbench.settings.editor": "json",
+  "editor.fontSize": 18,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "files.autoSave": "afterDelay",
+  // minimap
+  "editor.minimap.enabled": false,
+  // "editor.lineNumbers": "relative",
+  //------------------------------Prettier
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "prettier.useTabs": false,
+  "prettier.tabWidth": 2,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  // "workbench.colorTheme": "Dobri Next -A00- Black",
+  "workbench.colorTheme": "Bluloco Dark",
+  // "workbench.colorTheme": "Night Wolf (black)",
+  // "workbench.colorTheme": "monokai-charcoal (purple)",
+  // "workbench.colorTheme": "Mt. Doom",
+  // "workbench.colorTheme": "Ayu Dark",
+  // "workbench.colorTheme": "Just Black",
+  // "workbench.colorTheme": "8-Bit Dark",
+
+  //-----------------------------Ligth themes
+
+  // "workbench.colorTheme": "Bluloco Light",
+  // "workbench.colorTheme": "Atom One Light",
+
+  //----------------------------- THEMES END
+
+  "workbench.iconTheme": "vikings-icon-theme",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontWeight": "bold",
+  // "editor.fontFamily": "comic mono",
+  "editor.fontLigatures": true,
+  "editor.linkedEditing": true,
+
+  //lorem
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveSassCompile.settings.autoprefix": [],
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css/"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false,
+
+  "cSpell.language": "es,en",
+  "cSpell.userWords": ["Asincronía", "Gsap", "Monohilo", "pseudoclases"],
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.enabled": false,
+
+  "[python]": {
+    "editor.defaultFormatter": null
+  },
+  "cSpell.enableFiletypes": ["sass"],
+  "glassit.alpha": 245,
+
+  // If not specified searches for 'rubocop' executable available on PATH (default and recommended)
+  "ruby.rubocop.executePath": "",
+
+  // You can use specific path
+  // "ruby.rubocop.executePath": "/Users/you/.rbenv/shims/"
+  // "ruby.rubocop.executePath": "/Users/you/.rvm/gems/ruby-2.3.2/bin/"
+  // "ruby.rubocop.executePath": "D:/bin/Ruby22-x64/bin/"
+
+  // If not specified, it assumes a null value by default.
+  "ruby.rubocop.configFilePath": "/path/to/config/.rubocop.yml",
+
+  // default true
+  "ruby.rubocop.onSave": true
+}
